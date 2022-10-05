@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="spi">
+		<CBX_INST_ENTRY INSTANCE_NAME="|spi|lpm_counter0:inst1|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_obi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|spi|lpm_counter1:inst5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_3th.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|spi|lpm_decode0:inst|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_ogf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|spi|lpm_mux0:inst2|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_9vc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
