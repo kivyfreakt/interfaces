@@ -33,10 +33,12 @@
 
 module lpm_counter1 (
 	clock,
+	cout,
 	q);
 
 	input	  clock;
-	output	[2:0]  q;
+	output	  cout;
+	output	[3:0]  q;
 
 endmodule
 
@@ -50,27 +52,30 @@ endmodule
 // Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
 // Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
 // Retrieval info: PRIVATE: CarryIn NUMERIC "0"
-// Retrieval info: PRIVATE: CarryOut NUMERIC "0"
+// Retrieval info: PRIVATE: CarryOut NUMERIC "1"
 // Retrieval info: PRIVATE: Direction NUMERIC "0"
-// Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone IV GX"
-// Retrieval info: PRIVATE: ModulusCounter NUMERIC "0"
-// Retrieval info: PRIVATE: ModulusValue NUMERIC "40"
+// Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
+// Retrieval info: PRIVATE: ModulusCounter NUMERIC "1"
+// Retrieval info: PRIVATE: ModulusValue NUMERIC "10"
 // Retrieval info: PRIVATE: SCLR NUMERIC "0"
 // Retrieval info: PRIVATE: SLOAD NUMERIC "0"
 // Retrieval info: PRIVATE: SSET NUMERIC "0"
 // Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 // Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
-// Retrieval info: PRIVATE: nBit NUMERIC "3"
+// Retrieval info: PRIVATE: nBit NUMERIC "4"
 // Retrieval info: PRIVATE: new_diagram STRING "1"
 // Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 // Retrieval info: CONSTANT: LPM_DIRECTION STRING "UP"
+// Retrieval info: CONSTANT: LPM_MODULUS NUMERIC "10"
 // Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
-// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "3"
+// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "4"
 // Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL "clock"
-// Retrieval info: USED_PORT: q 0 0 3 0 OUTPUT NODEFVAL "q[2..0]"
+// Retrieval info: USED_PORT: cout 0 0 0 0 OUTPUT NODEFVAL "cout"
+// Retrieval info: USED_PORT: q 0 0 4 0 OUTPUT NODEFVAL "q[3..0]"
 // Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
-// Retrieval info: CONNECT: q 0 0 3 0 @q 0 0 3 0
+// Retrieval info: CONNECT: cout 0 0 0 0 @cout 0 0 0 0
+// Retrieval info: CONNECT: q 0 0 4 0 @q 0 0 4 0
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter1.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter1.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter1.cmp FALSE

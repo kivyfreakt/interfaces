@@ -1,0 +1,8 @@
+
+State Machine - |Lab_1|SPImaster:inst|state
+Name state.S_DATA_W state.S_DATA_R state.S_DELAY state.S_IDLE state.S_DATA_LAST 
+state.S_IDLE 0 0 0 0 0 
+state.S_DELAY 0 0 1 1 0 
+state.S_DATA_R 0 1 0 1 0 
+state.S_DATA_W 1 0 0 1 0 
+state.S_DATA_LAST 0 0 0 1 1 

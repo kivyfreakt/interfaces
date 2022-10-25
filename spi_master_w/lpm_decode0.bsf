@@ -33,8 +33,8 @@ applicable agreement for further details.
 	(port
 		(pt 128 32)
 		(output)
-		(text "eq9" (rect 0 0 21 14)(font "Arial" (font_size 8)))
-		(text "eq9" (rect 91 25 107 38)(font "Arial" (font_size 8)))
+		(text "eq10" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "eq10" (rect 85 25 107 38)(font "Arial" (font_size 8)))
 		(line (pt 128 32)(pt 112 32))
 	)
 	(drawing
